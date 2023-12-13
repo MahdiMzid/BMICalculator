@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background"
+    android:gravity="center"
+    tools:context=".view.MainActivity">
+
+    <EditText
+        android:id="@+id/etWeight"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/weight_hint"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/etHeight"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/height_hint"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnCalculer"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Calculer l'IMC"
+        android:textSize="22sp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+</LinearLayout>
